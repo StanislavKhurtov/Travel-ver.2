@@ -300,6 +300,7 @@ body::after {
 }
 
 .noselect {
+  display: none;
   position: fixed;
   right: 5%;
   bottom: 5%;
@@ -392,6 +393,10 @@ body::after {
   opacity: 0;
   visibility: hidden;
   display: none;
+}
+
+.noselect-show {
+	display: block;
 }
 
 .header {

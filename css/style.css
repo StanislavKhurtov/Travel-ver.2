@@ -341,24 +341,24 @@ body::after {
   transform: translateX(-50%) translateY(-50%);
   animation: bounce 2s infinite linear;
 }
-@supports (width: clamp( 0.5rem , 0.4603960396rem  +  0.198019802vw , 0.625rem )) {
+@supports (width: clamp( 0.625rem , 0.525990099rem  +  0.495049505vw , 0.9375rem )) {
   .noselect svg {
-    width: clamp( 0.5rem , 0.4603960396rem  +  0.198019802vw , 0.625rem );
+    width: clamp( 0.625rem , 0.525990099rem  +  0.495049505vw , 0.9375rem );
   }
 }
-@supports not (width: clamp( 0.5rem , 0.4603960396rem  +  0.198019802vw , 0.625rem )) {
+@supports not (width: clamp( 0.625rem , 0.525990099rem  +  0.495049505vw , 0.9375rem )) {
   .noselect svg {
-    width: calc(0.5rem + 0.125 * (100vw - 20rem) / 63.125);
+    width: calc(0.625rem + 0.3125 * (100vw - 20rem) / 63.125);
   }
 }
-@supports (height: clamp( 0.5rem , 0.4603960396rem  +  0.198019802vw , 0.625rem )) {
+@supports (height: clamp( 0.625rem , 0.525990099rem  +  0.495049505vw , 0.9375rem )) {
   .noselect svg {
-    height: clamp( 0.5rem , 0.4603960396rem  +  0.198019802vw , 0.625rem );
+    height: clamp( 0.625rem , 0.525990099rem  +  0.495049505vw , 0.9375rem );
   }
 }
-@supports not (height: clamp( 0.5rem , 0.4603960396rem  +  0.198019802vw , 0.625rem )) {
+@supports not (height: clamp( 0.625rem , 0.525990099rem  +  0.495049505vw , 0.9375rem )) {
   .noselect svg {
-    height: calc(0.5rem + 0.125 * (100vw - 20rem) / 63.125);
+    height: calc(0.625rem + 0.3125 * (100vw - 20rem) / 63.125);
   }
 }
 .noselect:hover {
@@ -396,7 +396,7 @@ body::after {
 }
 
 .noselect-show {
-	display: block;
+  display: block;
 }
 
 .header {
